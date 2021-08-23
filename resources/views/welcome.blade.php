@@ -48,8 +48,8 @@
 								<div class="header-row pl-4 justify-content-end">
 									<ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean m-0">
 										<li class="social-icons-facebook"><a href="http://www.facebook.com/sevencrows" target="_blank" title="Facebook"><i class="fab fa-facebook-f text-white"></i></a></li>
-										<li class="social-icons-instagram"><a href="http://www.instagram.com/sevencrows" target="_blank" title="Instagram"><i class="fab fa-instagram text-white"></i></a></li>
 										<li class="social-icons-linkedin"><a href="http://www.linkedin.com/sevencrows" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in text-white"></i></a></li>
+										<li class="social-icons-instagram"><a href="http://www.instagram.com/sevencrows" target="_blank" title="Instagram"><i class="icon-social-instagram icons text-white"></i></a></li>
 									</ul>
 									<button class="btn header-btn-collapse-nav ml-0 ml-sm-3" data-toggle="collapse" data-target=".header-nav-main nav">
 										<i class="fas fa-bars"></i>
@@ -104,7 +104,7 @@
 			<div class="row text-center text-md-left">
 				<div class="col-lg-4 mt-5 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="600">
 					<p class="text-7 gradient-text-color font-weight-bold line-height-5 negative-ls-2">Somos una empresa desarrolladora de software ubicada en Montevideo.</p>
-					<p class="font-weight-semibold mb-1">Ofrecemos soluciones a empresas y emprendedores que deseen crecer y  posicionarse en Internet.</p>
+					<p class="font-weight-semibold mb-1">Ofrecemos soluciones a empresas y emprendedores que deseen crecer y posicionarse en Internet, ó bien cubrir alguna necesidad dentro de su organización.</p>
 				</div>
 				<div class="col-lg-8">
 					<div class="row featured-boxes featured-boxes-style-4">
@@ -112,7 +112,7 @@
 							<div class="featured-box featured-box-primary featured-box-effect-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400">
 								<div class="box-content px-4">
 									<i class="icon-featured icon-screen-tablet icons text-14 mb-4 w-75"></i>
-									<h4 class="font-weight-bold text-color-dark pb-1 mb-2">Diseños innovadores</h4>
+									<h4 class="font-weight-bold text-color-dark pb-1 mb-2">Diseño</h4>
 									<p class="px-3 mb-0">Diseños profesionales y modernos. Tu sitio se adapta a cualquier dispositivo.</p>
 								</div>
 							</div>
@@ -122,7 +122,25 @@
 								<div class="box-content px-4">
 									<i class="icon-featured icon-people icons text-14 mb-4 w-75"></i>
 									<h4 class="font-weight-bold text-color-dark pb-1 mb-2">Creatividad</h4>
-									<p class="px-3 mb-0">Generamos soluciones a medida personalizado para cada cliente.</p>
+									<p class="px-3 mb-0">Generamos soluciones a medida personalizada para cada cliente.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="featured-box featured-box-primary featured-box-effect-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200">
+								<div class="box-content px-4">
+									<i class="icon-featured icon-earphones-alt icons text-14 mb-4 w-75"></i>
+									<h4 class="font-weight-bold text-color-dark pb-1 mb-2">Soporte</h4>
+									<p class="px-3 mb-0">Brindamos asistencia telefónica y ayuda por chat para realizar consultas y resolver tus inconvenientes.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="featured-box featured-box-primary featured-box-effect-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200">
+								<div class="box-content px-4">
+									<i class="icon-featured icon-notebook icons text-14 mb-4 w-75"></i>
+									<h4 class="font-weight-bold text-color-dark pb-1 mb-2">Manuales</h4>
+									<p class="px-3 mb-0">Entregamos documentación necesaria para que utilices el software sin dificultades.</p>
 								</div>
 							</div>
 						</div>
@@ -130,6 +148,8 @@
 				</div>
 			</div>
 	</section>
+
+	<hr>
 
 	<section>
 		<div class="container py-4 my-5">
@@ -155,7 +175,7 @@
 						<div class="box-content px-4">
 							<i class="icon-featured icon-layers icons text-12"></i>
 							<h4 class="font-weight-bold text-color-dark pb-1 mb-2">Presupuesto</h4>
-							<p class="mb-0">De acuerdo a tus necesidades te enviamos un informe sin costo con el presupuesto estimando el tiempo de entrega del proyecto.</p>
+							<p class="mb-0">De acuerdo a tus necesidades te enviamos un informe sin costo estimando el tiempo de entrega y presupuesto del proyecto.</p>
 						</div>
 					</div>
 				</div>
@@ -164,7 +184,7 @@
 						<div class="box-content px-4">
 							<i class="icon-featured icon-organization icons text-12"></i>
 							<h4 class="font-weight-bold text-color-dark pb-1 mb-2">Desarrollo</h4>
-							<p class="mb-0">Nos comprometemos a mantenerte siempre informado sobre los avances.</p>
+							<p class="mb-0">Nos comprometemos a realizar nuestro mejor trabajo manteniendote siempre informado sobre los avances.</p>
 						</div>
 					</div>
 				</div>
@@ -187,11 +207,12 @@
 				<div class="col-md-7 order-2 order-md-1 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
 					<span class="font-weight-bold text-color-dark opacity-8 text-4">A partir de $4.500,00</span>
 					<h2 class="font-weight-bold text-9 mb-4">Página Web informativa</h2>
-					<p class="lead">Sitio web básico para mostrarles a los visitantes acerca tus servicios.</p>
+					<p class="lead">Sitio web para mostrarles a los visitantes acerca tus servicios.</p>
 					<ul class="list list-icons pb-2 mb-4">
 						<li><i class="fas fa-caret-right top-6"></i> <span class="text-4">Incluye 4 secciones.</span></li>
 						<li><i class="fas fa-caret-right top-6"></i> <span class="text-4">Recursos ilustrativos (galeria de imágenes y videos).</span></li>
-						<li><i class="fas fa-caret-right top-6"></i> <span class="text-4">Dirección de correo profesional.</span></li>
+						<li><i class="fas fa-caret-right top-6"></i> <span class="text-4">Formulario de contacto</span></li>
+						<li><i class="fas fa-caret-right top-6"></i> <span class="text-4">Botón de chat Whatsapp.</span></li>
 						<li><i class="fas fa-caret-right top-6"></i> <span class="text-4">Dominio .com.uy</span></li>
 					</ul>
 					<!--<a href="#" class="btn btn-primary font-weight-semibold rounded-0 btn-px-5 py-3 text-2">LEARN MORE</a>-->
@@ -218,7 +239,6 @@
 						<li><i class="fas fa-caret-right top-6"></i> <span class="text-4">Carrito de compras.</span></li>
 						<li><i class="fas fa-caret-right top-6"></i> <span class="text-4">Control de stock y ventas.</span></li>
 						<li><i class="fas fa-caret-right top-6"></i> <span class="text-4">Pagos online.</span></li>
-						<li><i class="fas fa-caret-right top-6"></i> <span class="text-4">Y mucho más....</span></li>
 					</ul>
 					<p class="lead">Disponemos de una versión de demostración sin costo para que pruebes!</p>
 					<a href="{{ url('ecommerce') }}" class="btn btn-primary font-weight-semibold rounded-0 btn-px-5 py-3 text-2">MÁS INFORMACIÓN</a>
@@ -256,12 +276,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="section-angled-layer-bottom section-angled-layer-increase-angle" style="padding: 4rem 0; background: #222529;"></div>
+		
 	</section>
 
 </div>
 
-<div role="main" class="main mt-5">
+<!--<div role="main" class="main mt-5">
 
 	<div class="container container-xl-custom">
 		<div class="row justify-content-center featured-boxes featured-boxes-style-4 pb-3 mb-4">
@@ -297,7 +317,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 
 	@include('layouts.banner-whatsapp')
 

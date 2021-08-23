@@ -58,8 +58,8 @@
 								<div class="header-row pl-4 justify-content-end">
 									<ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean m-0">
 										<li class="social-icons-facebook"><a href="http://www.facebook.com/sevencrows" target="_blank" title="Facebook"><i class="fab fa-facebook-f text-white"></i></a></li>
-										<li class="social-icons-instagram"><a href="http://www.instagram.com/sevencrows" target="_blank" title="Instagram"><i class="fab fa-instagram text-white"></i></a></li>
 										<li class="social-icons-linkedin"><a href="http://www.linkedin.com/sevencrows" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in text-white"></i></a></li>
+                                        <li class="social-icons-instagram"><a href="http://www.instagram.com/sevencrows" target="_blank" title="Instagram"><i class="icon-social-instagram text-white"></i></a></li>
 									</ul>
 									<button class="btn header-btn-collapse-nav ml-0 ml-sm-3" data-toggle="collapse" data-target=".header-nav-main nav">
 										<i class="fas fa-bars"></i>
@@ -233,8 +233,9 @@
                 <div class="col-lg-10 text-center offset-lg-1">
                     <h2 class="font-weight-bold text-9 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-duration="750" data-plugin-options="{'accY': -200}">¿Cuales son los beneficios?</h2>
                     <p class="sub-title text-primary text-4 font-weight-semibold positive-ls-2 mt-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" data-appear-animation-duration="750">TU NEGOCIO AL SIGUIENTE NIVEL</p>
-                    <p class="text-1rem text-color-default negative-ls-05 pt-3 pb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750">Tener tu catálogo de productos en internet y darles a tus clientes la posibilidad de comprar desde la comodidad de sus casas mejora considerablemente las ventas aumentando tu presencia en Internet.</p>
-                    <p class="text-1rem text-color-default negative-ls-05 pt-3 pb-4 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750">Nuestro sistema te permite llevar un control total de ventas, podrás visualizar los pedidos cancelados, pendientes de envío y entregados para una mejor administración. El stock de tus productos se actualizan automaticamente al concretar una venta.</p>
+                    <p class="text-1rem text-color-default negative-ls-05 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750">Tener tu catálogo de productos en internet y darles a tus clientes la posibilidad de comprar desde la comodidad de sus casas mejora considerablemente las ventas aumentando tu presencia en Internet.</p>
+                    <p class="text-1rem text-color-default negative-ls-05 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750">Nuestro sistema te permite llevar un control total de ventas automatizando el stock de tus productos, podrás visualizar los pedidos cancelados, pendientes de envío y entregados para una mejor gestión.</p>
+                    <p class="text-1rem text-color-default negative-ls-05 py-3 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750">Diseño profesional, compacto y moderno, podrás administrar tu sitio desde cualquier dispositivo con conexión a Internet.</p>
                 </div>
 			</div>
 		</div>
@@ -264,8 +265,8 @@
                                 <i class="icon-screen-tablet icons text-color-primary"></i>
                             </div>
                             <div class="feature-box-info">
-                                <h4 class="mb-2">Diseño responsivo</h4>
-                                <p class="mb-4">Tu sitio profesional y moderno se adapta a cualquier tipo de dispositivo.</p>
+                                <h4 class="mb-2">Blog de noticias</h4>
+                                <p class="mb-4">Creá contenido, subí imágenes, videos y compartilos en tus redes sociales.</p>
                             </div>
                         </div>
                     </div>
@@ -326,7 +327,7 @@
                             </div>
                             <div class="feature-box-info">
                                 <h4 class="mb-2">Comentarios y reseñas</h4>
-                                <p class="mb-4">Las opiniones sobre tus productos importan. Los clientes leen los comentarios de otros usuarios antes de tomar una decisión de compra.</p>
+                                <p class="mb-4">Las opiniones sobre tus productos importan, los clientes leen los comentarios de otros usuarios antes de tomar una decisión de compra.</p>
                             </div>
                         </div>
                     </div>
@@ -337,7 +338,7 @@
                             </div>
                             <div class="feature-box-info">
                                 <h4 class="mb-2">Estadísticas</h4>
-                                <p class="mb-4">Graficos de gastos e ingresos. Sabrás cuales son tus clientes potenciales y tus productos más vendidos.</p>
+                                <p class="mb-4">Gráficos de gastos e ingresos. Sabrás cuales son tus clientes potenciales y tus productos más vendidos.</p>
                             </div>
                         </div>
                     </div>
@@ -352,6 +353,7 @@
                 <div class="col-lg-6 pb-sm-4 pb-lg-0 pr-lg-5 mb-sm-5 mb-lg-0">
                     <h2 class="text-color-dark font-weight-normal text-6 mb-2">Te mostramos un ejemplo</h2>
                     <p class="lead">Hemos creado una tienda ficticia con todas las funcionalidades de un E-commerce para que puedas ver nuestro trabajo. </p>
+                    <p>Como modelo corresponde a un negocio de venta de insumos informáticos.</p>
                     <!--<p class="pr-5 mr-5">Probá ingresar productos, proveedores, gestionar pedidos, descuentos y más </p>-->
                     <a href="{{ url('/') }}" target="_blank" class="btn btn-dark font-weight-semibold btn-px-4 btn-py-2 text-2">VER TIENDA</a>
                 </div>
@@ -371,7 +373,7 @@
                     <h2 class="font-weight-bold text-color-light text-7 mb-2">Probalo sin costo!</h2>
                     <p class="lead font-weight-light text-color-light text-4">Ingresá productos, proveedores, banners, gestioná pedidos, facturas, descuentos y más...</p>
                     <p class="font-weight-light text-color-light text-2 mb-4 opacity-7">Comunicate con nosotros y solicitá tu usuario para obtener acceso al panel administrativo.</p>
-                    <a href="{{ url('/') }}#contacto" class="btn btn-primary-scale-2 btn-px-5 btn-py-2 text-2">SOLICITAR ACCESO <i class="fas fa-arrow-circle-right ml-1"></i></a>
+                    <a href="#contacto" class="btn btn-primary-scale-2 btn-px-5 btn-py-2 text-2">SOLICITAR ACCESO <i class="fas fa-arrow-circle-right ml-1"></i></a>
                 </div>
                 <div class="col-9 offset-lg-1 col-lg-5 order-1 order-lg-2 scale-2">
                     <img class="img-fluid box-shadow-3 my-2 border-radius" src="{{ asset('img/ecommerce-image.png') }}" alt="">
@@ -384,7 +386,7 @@
         <div class="row mb-4">
             <div class="col pb-5">
                 <hr class="solid my-5">
-                <h2 class="text-color-dark font-weight-normal text-6 mb-2">Disponemos de varios planes a partir de <strong>$6.500,00</strong> al mes, elegí el que mas se adapte a tu negocio o emprendimiento de acuerdo a tus necesidades.</h2>
+                <h2 class="text-color-dark font-weight-normal text-6 mb-2 text-center">Disponemos de varios planes a partir de <strong>$8.500</strong>, elegí el que mas se adapte a tu negocio o emprendimiento de acuerdo a tus necesidades.</h2>
                 <p class="lead">Para más informacion no dudes en <a href="#formulario-contacto">contactarnos</a>.</p>
             </div>
         </div>
@@ -396,7 +398,7 @@
                         <h3>Inicial</h3>
                     </div>
                     <div class="plan-price">
-                        <span class="price"><span class="price-unit">$</span>6.500</span>
+                        <span class="price"><span class="price-unit">$</span>8.500</span>
                         <label class="price-label">PARA QUE LOS VISITANTES PUEDAN VER TUS PRODUCTOS</label>
                     </div>
                     <div class="plan-features">
@@ -405,14 +407,15 @@
                             <li>Panel administrativo <i class="icon-check icon text-success"></i></li>
                             <li>Catálogo de productos <i class="icon-check icon text-success"></i></li>
                             <li>Carrito de compras <i class="icon-close icon text-danger"></i></li>
-                            <li>Pagons online <i class="icon-close icon text-danger"></i></li>
+                            <li>Pagos online <i class="icon-close icon text-danger"></i></li>
+                            <li>Blog <i class="icon-close icon text-danger"></i></li>
                             <li>Punto de venta <i class="icon-close icon text-danger"></i></li>
                             <li>Proveedores <i class="icon-close icon text-danger"></i></li>
                             <li>Reportes <i class="icon-close icon text-danger"></i></li>
                         </ul>
                     </div>
                     <div class="plan-footer">
-                        <a href="#formulario-contacto" class="btn btn-dark btn-modern btn-outline py-2 px-4">Consultar</a>
+                        <a href="#contacto" class="btn btn-dark btn-modern btn-outline py-2 px-4">Consultar</a>
                     </div>
                 </div>
             </div>
@@ -432,19 +435,20 @@
                             <li>Catálogo de productos <i class="icon-check icon text-success"></i></li>
                             <li>Carrito de compras <i class="icon-check icon text-success"></i></li>
                             <li>Pagos online <i class="icon-check icon text-success"></i></li>
+                            <li>Blog <i class="icon-close icon text-success"></i></li>
                             <li>Punto de venta <i class="icon-check icon text-success"></i></li>
                             <li>Proveedores <i class="icon-check icon text-success"></i></li>
                             <li>Reportes <i class="icon-check icon text-success"></i></li>
                         </ul>
                     </div>
                     <div class="plan-footer">
-                        <a href="#formulario-contacto" class="btn btn-primary btn-modern py-2 px-4">Consultar</a>
+                        <a href="#contacto" class="btn btn-primary btn-modern py-2 px-4">Consultar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="plan">
-                    <div class="plan-header">
+                    <div class="plan-header bg-info">
                         <h3>Avanzado</h3>
                     </div>
                     <div class="plan-price">
@@ -458,13 +462,14 @@
                             <li>Catálogo de productos <i class="fa fa-check text-success"></i></li>
                             <li>Carrito de compras <i class="fa fa-check text-success"></i></li>
                             <li>Pagos online <i class="fa fa-check text-success"></i></li>
+                            <li>Blog <i class="icon-close icon text-success"></i></li>
                             <li>Punto de venta <i class="icon-close icon text-danger"></i></li>
                             <li>Proveedores <i class="icon-close icon text-danger"></i></li>
                             <li>Reportes <i class="icon-close icon text-danger"></i></li>
                         </ul>
                     </div>
                     <div class="plan-footer">
-                        <a href="#formulario-contacto" class="btn btn-dark btn-modern btn-outline py-2 px-4">Consultar</a>
+                        <a href="#contacto" class="btn btn-info btn-modern btn-outline py-2 px-4">Consultar</a>
                     </div>
                 </div>
             </div>

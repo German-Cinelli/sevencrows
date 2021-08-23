@@ -25,6 +25,4 @@ Route::get('/ecommerce', function(){
     return view('ecommerce');
 });
 
-Route::post('/contacto', [ContactController::class, 'send']);
-
-
+Route::post('/contacto', [ContactController::class, 'store']);

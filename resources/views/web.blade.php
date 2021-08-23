@@ -65,11 +65,54 @@
 			@yield('content')
 
 			<footer id="footer">
+				<section class="section bg-dark border-0 m-0">
+					<div class="container">
+						<div class="row justify-content-center text-center text-lg-left py-4">
+							<div class="col-lg-auto appear-animation" data-appear-animation="fadeInRightShorter">
+								<div class="feature-box feature-box-style-2 d-block d-lg-flex mb-4 mb-lg-0">
+									<div class="feature-box-icon">
+										<i class="icon-envelope icons text-color-light"></i>
+									</div>
+									<div class="feature-box-info pl-1">
+										<h5 class="font-weight-light text-color-light opacity-7 mb-0">CORREO</h5>
+										<p class="text-color-light font-weight-semibold mb-0">contacto@sevencrows.com.uy</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
+								<div class="feature-box feature-box-style-2 d-block d-lg-flex mb-4 mb-lg-0 px-xl-4 mx-lg-5">
+									<div class="feature-box-icon">
+										<i class="icon-call-out icons text-color-light"></i>
+									</div>
+									<div class="feature-box-info pl-1">
+										<h5 class="font-weight-light text-color-light opacity-7 mb-0">LLAMANOS</h5>
+										<a href="tel:+8001234567" class="text-color-light font-weight-semibold text-decoration-none">+598 96 000 000</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
+								<div class="feature-box feature-box-style-2 d-block d-lg-flex">
+									<div class="feature-box-icon">
+										<i class="icon-share icons text-color-light"></i>
+									</div>
+									<div class="feature-box-info pl-1">
+										<h5 class="font-weight-light text-color-light opacity-7 mb-0">NUESTRAS REDES</h5>
+										<p class="mb-0">
+											<span class="social-icons-linkedin"><a href="http://www.linkedin.com/sevencrows" target="_blank" class="text-color-light font-weight-semibold" title="Twitter"><i class="mr-1 fab fa-linkedin"></i> LINKEDIN</a></span>
+											<span class="social-icons-facebook pl-3"><a href="http://www.facebook.com/sevencrows" target="_blank" class="text-color-light font-weight-semibold" title="Facebook"><i class="mr-1 fab fa-facebook-f"></i> FACEBOOK</a></span>
+											<span class="social-icons-instagram pl-3"><a href="http://www.instagram.com/instagram" target="_blank" class="text-color-light font-weight-semibold" title="Linkedin"><i class="mr-1 fab fa-instagram"></i> INSTAGRAM</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 				<div class="footer-copyright footer-copyright-style-2">
 					<div class="container">
 						<div class="row py-4">
 							<div class="col d-flex align-items-center justify-content-center">
-								<p>© Copyright 2021 Sevencrows</p>
+								<p><strong>SEVENCROWS</strong> - © Copyright 2021</p>
 							</div>
 						</div>
 					</div>
